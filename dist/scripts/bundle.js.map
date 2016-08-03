@@ -5,11 +5,11 @@
     "src/scripts/main.js"
   ],
   "names": [],
-  "mappings": "AAAA;ACAA;AACA",
+  "mappings": "AAAA;;;ACAA;;AAEA,IAAI,WAAW,aAAf;;AAEA,SAAS,QAAT,GAAoB;AACnB,KAAI,QAAQ,EAAZ;AACA,SAAQ,GAAR,CAAY,OAAZ,EAAqB,KAArB;AACA;;AAED,QAAQ,GAAR,CAAY,UAAZ,EAAwB,QAAxB;;AAEA;;AAEA,IAAI,aAAa,aAAjB,EAAgC;AAC/B,KAAI,WAAW,EAAf;AACA,KAAI,YAAW,CAAf;AACA,KAAM,YAAW,EAAjB;AACA;;AAED,WAAW,EAAX;AACA,QAAQ,GAAR,CAAY,UAAZ,EAAwB,QAAxB;;AAEA,YAAY,CAAZ;AACA,QAAQ,GAAR,CAAY,UAAZ,EAAwB,QAAxB;;AAEA,QAAQ,GAAR,CAAY,UAAZ,EAAwB,QAAxB",
   "file": "generated.js",
   "sourceRoot": "",
   "sourcesContent": [
     "(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require==\"function\"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error(\"Cannot find module '\"+o+\"'\");throw f.code=\"MODULE_NOT_FOUND\",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require==\"function\"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})",
-    "\"use strict\";\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLmpzIiwic291cmNlc0NvbnRlbnQiOltdfQ=="
+    "// var, let and const\n\nvar siteName = \"artist.site\";\n\nfunction siteInfo() {\n\tvar pages = 99;\n\tconsole.log(\"pages\", pages);\n}\n\nconsole.log('siteName', siteName);\n\nsiteInfo();\n\nif (siteName !== 'artist.site') {\n\tvar oldPages = 88;\n\tlet newPages = 5;\n\tconst pageSize = 10;\n}\n\noldPages = 77;\nconsole.log('oldPages', oldPages);\n\nnewPages == 4;\nconsole.log('newPages', newPages);\n\nconsole.log('pageSize', pageSize);\n\n\n  \n  \n\n\n\n\n"
   ]
 }

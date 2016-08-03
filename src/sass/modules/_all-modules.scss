@@ -18,7 +18,7 @@
 @import "flexbox-table"	;
 
 .l-overall {
-  background-color: green;
+  // background-color: green;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,7 +38,7 @@
 } 
 
 .l-middle {
-  background-color: red;
+  // background-color: red;
   flex: 0 0 auto;
   width: 100%;
 
@@ -50,7 +50,7 @@
 } 
 
 .l-bottom {
-  background-color: yellow;
+  // background-color: yellow;
   padding: 10px;
 
   flex: 1 1 70%;
@@ -62,7 +62,7 @@
 }
 
 .l-topFooter {
-  background-color: darkblue;
+  // background-color: darkblue;
   flex: 1 1 90%;
 }
 
